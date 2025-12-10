@@ -13,8 +13,8 @@ struct Node{
 
 class Queue{
 public:
-    Node* head;
-    Node*tail;
+    Node* head;   // work like front
+    Node*tail;   // work like rear
 
     Queue(){
         head = tail = NULL;
@@ -67,3 +67,4 @@ int main(){
     cout<<endl;
     return 0;
 }
+
